@@ -21,7 +21,6 @@ pipeline {
                 sh ('terraform plan') 
             }
         }
-        
 
         stage (" Action") {
             steps {
